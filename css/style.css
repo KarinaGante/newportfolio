@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Lato';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.filter{
+    display: flex;
+    width: 100%;
+    height: 130%;
+    background-color: rgba(22, 22, 22, 0.842);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.3rem;
+}
+
+.intro{
+    background-image: url(../img/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.intro h5{
+    text-transform: uppercase;
+    color: blueviolet;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.intro h1{
+    font-size: 85px;
+    letter-spacing: 0;
+    font-weight: 900;
+}
+
+.intro p span{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #1dff8e;
+    font-weight: 500;
+}
+
+.sociais{
+    margin-top: 45vh;
+    font-size: 2.8rem;
+    letter-spacing: 1.5rem;
+    margin-bottom: 15vh;
+}
+
+.sociais a{
+    color: white;
+}
+
+.sociais a:hover{
+    color: blueviolet;
+    transition: 400ms ease;
+}
+
+.about{
+    width: 100%;
+    height: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 229, 211);
+    color: rgb(92, 86, 86);
+}
+
+.about h5{
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+    color: blueviolet;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.about h1{
+    color: black;
+    font-weight: 1000;
+}
+
+.about p{
+    margin-left: 26px;
+    margin-right: 26px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.about p a{
+    color: blueviolet;
+}
+
+.primary{
+    width: 180px;
+    height: 55px;
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-right: 20px;
+    font-weight: 600;
+    outline: none;
+}
+
+.primary:hover{
+    color: #1dff8e;
+    border: 3px solid #1dff8e;
+    transition: 400ms ease;
+}
+
+.secondary{
+    width: 180px;
+    height: 55px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-right: 20px;
+    font-weight: 600;
+    outline: none;
+}
+
+.secondary:hover{
+    background-color: rgb(104, 31, 172);
+    transition: 400ms ease;
+}
+
+.skills{
+    display: flex;
+    width: 100%;
+    height: 130%;
+    background: rgb(0,0,0);
+    background: linear-gradient(121deg, rgba(0,0,0,1) 25%, rgba(87,86,86,1) 100%);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.3rem;
+}
+
+.skills h5{
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+    color: blueviolet;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.skills h1{
+    color: white;
+    font-weight: 1000;
+}
+
+.skills i{
+    font-size: 5rem;
+}
+
+.projs{
+    width: 100%;
+    height: 280%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 229, 211);
+    color: rgb(92, 86, 86);
+}
+
+.projs h5{
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+    color: blueviolet;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.projs h1{
+    text-align: center;
+    color: black;
+    font-weight: 1000;
+}
+
+.projs h2{
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+}
+
+.projs p{
+    margin-left: 26px;
+    margin-right: 26px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.projs p a{
+    color: rgb(92, 86, 86);
+}
+
+#contact{
+    background-image: url(../img/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#contact .filter{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(22, 22, 22, 0.842);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.3rem;
+}
+
+#contact h5{
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+    color: blueviolet;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+#contact h1{
+    color: white;
+    font-weight: 1000;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+input, textarea {
+    width: 150%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #a0a0a0;
+    outline: none;
+    color: white;
+}
+
+.third{
+    width: 150%;
+    height: 55px;
+    background-color: #1dff8e;
+    color: black;
+    border: none;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    outline: none;
+}
+
+.third:hover{
+    background-color: #1e9e5e;
+    transition: 400ms ease;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white
+
+}
+
+.footer p{
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.footer p a{
+    color: white;
+
+}
+
+.footer p a:hover{
+    color: #1dff8e;
+    transition: 400ms ease;
+}
+
+.ty{
+    display: flex;
+    width: 100%;
+    height: 95%;
+    background: rgb(0,0,0);
+    background: linear-gradient(121deg, rgba(0,0,0,1) 25%, rgba(87,86,86,1) 100%);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.3rem;
+}
+
+.ty h5{
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+    color: #8a2be2;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.ty h1{
+    color: white;
+    font-weight: 1000;
+}
+
+@media screen and (width < 586px) {
+    .intro h1{
+        font-size: 55px;
+    }
+
+    .primary{
+        margin-top: -25px;
+        width: 120px;
+        
+    }
+    
+    .secondary{
+        margin-top: -25px;
+        width: 120px;
+        
+    }
+    
+    .skills h1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .skills i{
+        font-size: 3rem;
+    }
+
+    .skills p{
+        font-size: 0.9rem;
+        letter-spacing: 0;
+    }
+
+    .projs h1{
+        font-size: 1.5rem;
+    }
+
+    #contact .filter{
+        height: 150%;
+    }
+    
+    #contact h1{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .footer{
+        height: 8vh;    
+    }
+    
+    .footer p{
+        margin-top: 14px;
+        font-size: 0.8rem;
+    }    
+}
